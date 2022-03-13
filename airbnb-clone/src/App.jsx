@@ -7,7 +7,7 @@ export default function App() {
   let cards = data.map(item => (
     <Card
       key={item.id}
-      item={item}
+      {...item}
     />
   ));
 
